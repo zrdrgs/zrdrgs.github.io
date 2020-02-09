@@ -1,1 +1,239 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" class="uk-background-secondar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Naira Robert Arquiteta</title>
+        <meta name="description" content="Projetos arquitetônicos residenciais e comerciais, consultoria, regularizações e acompanhamento de obras.">
+        <meta property="og:title" content="Naira Robert Arquiteta">
+        <meta property="og:description" content="Projetos arquitetônicos residenciais e comerciais, consultoria, regularizações e acompanhamento de obras.">
+        <meta property="og:image" content="http://www.nairarobert.com/images/thumbnail.jpg">
+        <meta property="og:url" content="http://www.nairarobert.com">
+        <meta name="keywords" content="arquitetura, projeto, casa, construção, decoração, paisagismo, interior, tria, escritório, regularização, consultoria, acompanhamento, acompanhamento de obras, obras, imóvel, lar">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/favicon.png">
+    </head>
+    <body class="uk-background-muted">
+
+        <div class="uk-background-muted" uk-sticky="show-on-up: true; animation: uk-animation-slide-top">
+            <div class="uk-container">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-center">
+                        <a href="/" class="uk-navbar-item">
+                            <img src="images/naira.svg" class="uk-responsive-height nr-logo" alt="">
+                        </a>
+                    </div>
+                    <div class="uk-navbar-right">
+
+                        <div class="uk-navbar-item">
+                            <a href="" uk-icon="menu" uk-toggle="target: #menu"></a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+            <div id="menu" class="" uk-offcanvas="overlay: true; flip: true">
+                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                    <div class="uk-width-1-1 uk-flex uk-flex-center uk-padding-large uk-padding-remove-vertical">
+                        <a href="#" class="uk-offcanvas-close uk-margin-medium-right" uk-close></a>
+                    </div>
+                    <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                        <li class="uk-padding-small">
+                            <a href="#services" uk-scroll>SERVIÇOS</a>
+                        </li>
+                        <li class="uk-padding-small">
+                            <a href="#projects" uk-scroll>PROJETOS</a>
+                        </li>
+                        <li class="uk-padding-small">
+                            <a href="#contact" uk-scroll>CONTATO</a>
+                        </li>
+                    </ul>
+                    <img src="images/naira.svg" class="uk-responsive-height nr-logo-small nr-text-white" uk-svg>
+                </div>
+            </div>
+        </div>
+        <!-- end nav -->
+
+        <div class="">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: pull; ratio: 1920:800; autoplay: true">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="images/cover-1.jpg" alt="" uk-cover>
+                    </li>
+                    <li>
+                        <img src="images/cover-2.jpg" alt="" uk-cover>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+            </div>
+        </div>
+        <!-- end cover -->
+
+        <div class="uk-section uk-section-xlarge" id="services">
+            <div class="uk-container">
+                <h5 class="uk-text-center uk-margin-large">SERVIÇOS</h4>
+                <div class="uk-child-width-1-4@m uk-grid-match uk-grid-small" uk-grid>
+                    <div>
+                        <div class="uk-tile uk-tile-default uk-animation-toggle">
+                            <div class="uk-margin-large">
+                                <img class="uk-animation-stroke" src="images/icon-projetos.svg" alt="" uk-svg="stroke-animation: true">
+                            </div>
+                            <h6 class="uk-text-uppercase uk-text-bold uk-text-primary"> Projetos </h1>
+                            <p class="">
+                                Projetos arquitetônicos residenciais e comerciais.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-tile uk-tile-default uk-animation-toggle">
+                            <div class="uk-margin-large">
+                                <img class="uk-animation-stroke" src="images/icon-consultoria.svg" alt="" uk-svg="stroke-animation: true">
+                            </div>
+                            <h6 class="uk-text-uppercase uk-text-bold uk-text-primary"> Consultoria </h1>
+                            <p class="">
+                                Direcionamento, orientação e sugestões de melhorias.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-tile uk-tile-default uk-animation-toggle">
+                            <div class="uk-margin-large">
+                                <img class="uk-animation-stroke" src="images/icon-acompanhamento.svg" alt="" uk-svg="stroke-animation: true">
+                            </div>
+                            <h6 class="uk-text-uppercase uk-text-bold uk-text-primary"> Acompanhamento </h1>
+                            <p class="">
+                                Acompanhamento de obras e avaliação da execução dos serviços.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-tile uk-tile-default uk-animation-toggle">
+                            <div class="uk-margin-large">
+                                <img class="uk-animation-stroke" src="images/icon-regularizacao.svg" alt="" uk-svg="stroke-animation: true">
+                            </div>
+                            <h6 class="uk-text-uppercase  uk-text-bold uk-text-primary"> Regularizações </h1>
+                            <p class="">
+                                Legalização de imóveis em cartórios e orgãos municipais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end services -->
+        <hr class="uk-margin-remove">
+        <div class="uk-section uk-section-xlarge" id="projects">
+            <div class="uk-container">
+                <h5 class="uk-text-center uk-margin-large">PROJETOS</h4>
+                <div class="uk-child-width-1-4 uk-grid-match uk-grid-small" uk-grid>
+                </div>
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true" >
+
+                    <ul class="uk-slider-items uk-grid uk-grid-small uk-grid-match" uk-height-viewport="min-height: 300; offset-top: 50; offset-bottom: 100;">
+                        <li class="uk-width-5-6 uk-width-2-5@m">
+                            <div class="uk-cover-container">
+                                <img src="images/work/anilton-cover.jpg" alt="" uk-cover>
+                            </div>
+                            <div class="uk-position-center uk-text-center">
+                                <h3 class="uk-margin-medium-left uk-margin-remove-bottom">CASA AR</h2>
+                            </div>
+                            <a href="projetos/ar.html" class="uk-position-cover"></a>
+                        </li>
+                        <li class="uk-width-5-6 uk-width-2-5@m">
+                            <div class="uk-cover-container">
+                                <img src="images/work/mb-cover.jpg" alt="" uk-cover>
+                            </div>
+                            <div class="uk-position-center uk-text-center">
+                                <h3 class="uk-margin-medium-left uk-margin-remove-bottom">CASA MB</h2>
+                            </div>
+                            <a href="projetos/mb.html" class="uk-position-cover"></a>
+                        </li>
+                        <li class="uk-width-5-6 uk-width-2-5@m">
+                            <div class="uk-cover-container">
+                                <img src="images/work/poly-cover.jpg" alt="" uk-cover>
+                            </div>
+                            <div class="uk-position-center uk-text-center">
+                                <h3 class="uk-margin-medium-left uk-margin-remove-bottom">POLY MODAS</h2>
+                            </div>
+                            <a href="projetos/poly-modas.html" class="uk-position-cover"></a>
+                        </li>
+                        <li class="uk-width-5-6 uk-width-2-5@m">
+                            <div class="uk-cover-container">
+                                <img src="images/work/vale-cover.jpg" alt="" uk-cover>
+                            </div>
+                            <div class="uk-position-center uk-text-center">
+                                <h3 class="uk-margin-medium-left uk-margin-remove-bottom">CASA VALE</h2>
+                            </div>
+                            <a href="projetos/vale.html" class="uk-position-cover"></a>
+                        </li>
+                        <li class="uk-width-5-6 uk-width-2-5@m">
+                            <div class="uk-cover-container">
+                                <img src="images/work/varanda-cover.jpg" alt="" uk-cover>
+                            </div>
+                            <div class="uk-position-center uk-text-center">
+                                <h3 class="uk-margin-medium-left uk-margin-remove-bottom">VARANDA GOURMET</h2>
+                            </div>
+                            <a href="projetos/varanda-gourmet.html" class="uk-position-cover"></a>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                </div>
+            </div>
+        </div>
+        <!-- end projects -->
+        <hr class="uk-margin-remove" id="contact">
+        <div class="uk-section uk-section-xlarge" id="contact">
+            <div class="uk-container">
+                <h5 class="uk-text-center uk-margin-large">CONTATO</h4>
+                <div class="uk-child-width-1-3@m uk-grid-match uk-text-center" uk-grid>
+                    <div class="">
+                        <div class="uk-panel ">
+                            <a href="tel:+55-17-99781-8316" class="uk-text-lead">(17) 9 9781-8316</a>
+                            <span class="uk-text-small uk-text-primary uk-text-uppercase uk-display-block">São José do Rio Preto, SP.</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="uk-panel ">
+                            <a href="tel:+55-34-99251-2962" class="uk-text-lead">(34) 9 9251-2962</a>
+                            <span class="uk-text-small uk-text-primary uk-text-uppercase uk-display-block">Iturama, MG.</span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="uk-panel ">
+                            <a href="mailto:naira@nairarobert.com?subject=Contato Site" class="uk-text-lead">naira@nairarobert.com</a>
+                            <span class="uk-text-small uk-text-primary uk-text-uppercase uk-display-block">E-mail</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end contact -->
+
+        <div class="uk-section uk-section-large nr-bg-white">
+            <div class="uk-panel uk-flex uk-flex-column uk-flex-center uk-text-center">
+                <a href="/" class="uk-navbar-ite uk-logo">
+                    <img src="images/naira-robert.svg" class="uk-responsive-height nr-logotipo" alt="">
+                </a>
+                <p class="uk-text-small">
+                    © 2019. Todos os direitos reservados.
+                </p>
+
+                <a href="#" class="uk-margin-top" uk-totop uk-scroll></a>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+    </body>
+</html>
